@@ -27,6 +27,9 @@ SQS offers resiliency, Durability, Security, at least once delivery and Scalabil
 The cost of Amazon SQS is calculated per request, plus data transfer charges for data transferred out of Amazon SQS (unless data is transferred to Amazon EC2 instances or to AWS Lambda functions within the same region).
 
 ### 2. Working With SQS.
+<div align="center">
+<img src="https://github.com/Shwetabh1/LambdaWithSQS/blob/master/images/aws_sqs.png" alt="RabbitMQ Tutorial" width="450" height="200"/>
+</div>
 AWS Simple Queue Service can be used as an event source to invoke Lambda Function. SQS offers two types of Queues. <br/>
 1. Simple Queue <br/>
 2. FIFO Queue <br/>
@@ -56,4 +59,4 @@ Dead Letter Queue. <br/>
 ### 6. Useful Links
 https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-eventsource   [configure sqs with lambda]
 https://docs.aws.amazon.com/lambda/latest/dg/java-programming-model.html   [Create lambda function in JAVA]
-
+https://read.acloud.guru/event-driven-architecture-with-sqs-and-aws-lambda-cf2ebd529ae3
