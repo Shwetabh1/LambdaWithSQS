@@ -1,7 +1,7 @@
 <h1 align="center"> Invoke Lambda With SQS </h1>
 
 <div align="center">
-    <img src="https://github.com/Shwetabh1/LambdaWithSQS/blob/master/Images/sqs_lambda.png" alt="Lambda with SQS" width="800" height="360"/>
+    <img src="https://github.com/Shwetabh1/LambdaWithSQS/blob/master/images/sqs_lambda.png" alt="Lambda with SQS" width="750" height="360"/>
   <br>
 </div>
 
