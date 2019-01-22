@@ -57,6 +57,6 @@ Handling Errors. <br/>
 Dead Letter Queue. <br/>
 
 ### 6. Useful Links
-https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-eventsource   [configure sqs with lambda]
-https://docs.aws.amazon.com/lambda/latest/dg/java-programming-model.html   [Create lambda function in JAVA]
+https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-eventsource
+https://docs.aws.amazon.com/lambda/latest/dg/java-programming-model.html
 https://read.acloud.guru/event-driven-architecture-with-sqs-and-aws-lambda-cf2ebd529ae3
