@@ -28,7 +28,7 @@ The cost of Amazon SQS is calculated per request, plus data transfer charges for
 
 ### 2. Working With SQS.
 <div align="center">
-<img src="https://github.com/Shwetabh1/LambdaWithSQS/blob/master/images/aws_sqs.png" alt="RabbitMQ Tutorial" width="450" height="200"/>
+<img src="https://github.com/Shwetabh1/LambdaWithSQS/blob/master/images/aws_sqs.png" alt="AWS SQS" width="450" height="200"/>
 </div>
 AWS Simple Queue Service can be used as an event source to invoke Lambda Function. SQS offers two types of Queues. <br/>
 1. Simple Queue <br/>
