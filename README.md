@@ -1,7 +1,7 @@
 <h1 align="center"> Invoke Lambda With SQS </h1>
 
 <div align="center">
-    <img src="https://github.com/Shwetabh1/LambdaWithSQS/blob/master/Images/Essential_JS.png" alt="Lambda with SQS" width="400" height="360"/>
+    <img src="https://github.com/Shwetabh1/LambdaWithSQS/blob/master/Images/sqs_lambda.png" alt="Lambda with SQS" width="800" height="360"/>
   <br>
 </div>
 
@@ -46,7 +46,7 @@ You need to understand the following to start working with Lambda
 6. Deploying Packages or Editing Inline
 
 ### 4. Adding Triggers.
-Triggers can be added once your Lambda Function is ready. Choose the function and under Add triggers, choose SQS. Configure the SQS queue and Batch Size. Batch Size specifies the maximum number of items to read from the queue and send to your function, in a single invocation. However, if your function returns an error, all items in the batch return to the queue so choose a smalled batch size. 
+Triggers can be added once your Lambda Function is ready. Choose the function and under Add triggers, choose SQS. Configure the SQS queue and Batch Size. Batch Size specifies the maximum number of items to read from the queue and send to your function, in a single invocation. However, if your function returns an error, all items in the batch return to the queue so choose a smalled batch size.
 
 ### 5. Optimization and other concerns.
 Handling Concurrency. <br/>
