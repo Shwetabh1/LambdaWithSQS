@@ -49,7 +49,7 @@ You need to understand the following to start working with Lambda
 6. Deploying Packages or Editing Inline
 
 ### 4. Adding Triggers.
-Triggers can be added once your Lambda Function is ready. Choose the function and under Add triggers, choose SQS. Configure the SQS queue and Batch Size. Batch Size specifies the maximum number of items to read from the queue and send to your function, in a single invocation. However, if your function returns an error, all items in the batch return to the queue so choose a smalled batch size.
+Triggers can be added once your Lambda Function is ready. Choose the function and under Add triggers, choose SQS. Configure the SQS queue and Batch Size. Lambda reads messages in batches and invokes your function once for each batch.<br> Batch Size specifies the maximum number of items to read from the queue and send to your function, in a single invocation. However, if your function returns an error, all items in the batch return to the queue so choose a smaller batch size. 
 
 ### 5. Optimization and other concerns.
 Handling Concurrency. <br/>
@@ -57,6 +57,6 @@ Handling Errors. <br/>
 Dead Letter Queue. <br/>
 
 ### 6. Useful Links
-https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-eventsource
-https://docs.aws.amazon.com/lambda/latest/dg/java-programming-model.html
+https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-eventsource <br/>
+https://docs.aws.amazon.com/lambda/latest/dg/java-programming-model.html <br/>
 https://read.acloud.guru/event-driven-architecture-with-sqs-and-aws-lambda-cf2ebd529ae3
